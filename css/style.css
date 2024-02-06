@@ -1282,11 +1282,11 @@ section.statistic-section {
    */ }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.statistic-section {
-      background: #111 url("../upload/ban1@2x.jpg") center center;
+      background: #111 url("../images/services/tmt-bars.jpg") center center;
       background-size: cover; } }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     section.statistic-section {
-      background: #111 url("../upload/ban1@2x.jpg") center center;
+      background: #111 url("../images/services/tmt-bars.jpg") center center;
       background-size: cover; } }
   section.statistic-section .statistic-box .statistic-post {
     text-align: center;
@@ -1864,11 +1864,12 @@ footer {
       footer .up-footer .posts-widget ul li > a:hover {
         opacity: 0.7; }
     footer .up-footer .instagram-widget ul li {
-      display: inline-block;
       margin-right: 12px;
       margin-bottom: 15px; }
-      footer .up-footer .instagram-widget ul li a img {
-        max-width: 72px; }
+      footer .up-footer .instagram-widget ul li a {
+        font-size: 16px;
+        color: #fff;
+      }
       footer .up-footer .instagram-widget ul li a:hover {
         opacity: 0.7; }
     footer .up-footer .newsletter-widget p {
